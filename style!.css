@@ -3,8 +3,8 @@ body {
 }
 
 header {
-    background-color:  black;
-    width: 100%;
+    background-color: black;
+    max-width: 1350px;
     height: 150px;
 }
 
@@ -18,23 +18,46 @@ header {
     display: inline-block;
     position: relative;
     justify-content: end;
-    right: 600px;
+ 
 }
 
 nav ul {
     display: flex;
     position: relative;
-    justify-content: end;
-    bottom: 20px;
+    justify-content: center;
+    bottom: 90px;
 }
 
 nav li {
     display: inline;
     position: relative;    
-    padding-left: 10px;
 }
 
+nav a {
+    color: #FFF;
+    font-family: var(--fonte2);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 60px;
+}
 
+nav a:hover {
+    font-size: 22px;
+    transition-delay: 0.12s;
+    transition-duration: 0.14s;
+    text-decoration: underline;
+}
+
+ a:visited, a:active {
+	text-decoration: underline;
+}
+
+#img-hamburguer {
+    max-width: 100%;
+    min-width: 350px; 
+}
 
 
 
