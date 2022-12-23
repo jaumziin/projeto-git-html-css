@@ -59,7 +59,11 @@ nav a:hover {
     min-width: 350px; 
 }
 
+/* SEÇÃO - CONTAINER MAIN */
 
+.container-info-cardapio {
+    background-color: rgb(194,182,158);
+}
 
 
 
