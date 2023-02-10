@@ -4,8 +4,6 @@ body {
 
 header {
     background-color: black;
-    max-width: 1350px;
-    height: 150px;
 }
 
 .h1-img-logo {
@@ -54,9 +52,8 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-#img-hamburguer {
-    max-width: 100%;
-    min-width: 350px; 
+.img-hamburguer {
+    width: 100%;
 }
 
 /* SEÇÃO - CONTAINER MAIN */
